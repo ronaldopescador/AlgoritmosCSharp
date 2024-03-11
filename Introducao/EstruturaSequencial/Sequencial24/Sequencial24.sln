@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequencial24", "Sequencial24\Sequencial24.csproj", "{04B1A52E-F200-48DD-97E6-CA7F31D80792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B1A52E-F200-48DD-97E6-CA7F31D80792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B1A52E-F200-48DD-97E6-CA7F31D80792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B1A52E-F200-48DD-97E6-CA7F31D80792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B1A52E-F200-48DD-97E6-CA7F31D80792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {989A7C89-5FA6-45F1-979B-FC163836A999}
+	EndGlobalSection
+EndGlobal
