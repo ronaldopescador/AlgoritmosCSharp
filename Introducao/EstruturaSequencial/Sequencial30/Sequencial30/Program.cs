@@ -4,19 +4,19 @@ int anosEmpresa = int.Parse(Console.ReadLine());
 
 // Leitura dos projetos de grande porte
 Console.WriteLine("Digite a quantidade de projetos de grande porte:");
-int quantidadeProjetosGrandePorte = int.Parse(Console.ReadLine());
+int quantidadeProjetosGrande = int.Parse(Console.ReadLine());
 
 // Leitura dos projetos de médio porte
 Console.WriteLine("Digite a quantidade de projetos de médio porte:");
-int quantidadeProjetosMedioPorte = int.Parse(Console.ReadLine());
+int quantidadeProjetosMedio = int.Parse(Console.ReadLine());
 
 // Leitura dos projetos de pequeno porte
 Console.WriteLine("Digite a quantidade de projetos de pequeno porte:");
-int quantidadeProjetosPequenoPorte = int.Parse(Console.ReadLine());
+int quantidadeProjetosPequeno = int.Parse(Console.ReadLine());
 
 // Cálculo da pontuação total
-int pontosTotal = (anosEmpresa * 2) + (quantidadeProjetosGrandePorte * 10) + 
-    (quantidadeProjetosMedioPorte * 5) + (quantidadeProjetosPequenoPorte * 2);
+int pontosTotal = (anosEmpresa * 2) + (quantidadeProjetosGrande * 10) + 
+    (quantidadeProjetosMedio * 5) + (quantidadeProjetosPequeno * 2);
 
 // Exibição da pontuação total
 Console.WriteLine("A pontuação total do funcionário é: " + pontosTotal);
