@@ -15,7 +15,7 @@ if (num1 > num2)
     }
     else
     {
-        Console.WriteLine("O maior número é: {0} ", ); num3;
+        Console.WriteLine("O maior número é: {0} ", num3);
     }
 }
 else
