@@ -3,7 +3,7 @@ Console.Write("Digite o valor total da conta: ");
 double valorTotal = Convert.ToDouble(Console.ReadLine());
 
 // Calcular valor restante que será pago pelo Felipe
-double resto = valorTotal % 3;
+double resto = ((valorTotal / 3) % 1) * 3;
 double valorDivisivel = valorTotal - resto;
 
 // Cálculo do valor a ser pago por Carlos e André
