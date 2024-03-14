@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sequencial26", "Sequencia26\Sequencial26.csproj", "{A7ADA92F-93E3-4F8A-BE6C-D187F5DEF4C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sequencial26", "Sequencial26\Sequencial26.csproj", "{A7ADA92F-93E3-4F8A-BE6C-D187F5DEF4C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
