@@ -26,9 +26,9 @@ double porcentagemSegundoColocado = (double)pontuacaoSegundoColocado / pontuacao
 double porcentagemTerceiroColocado = (double)pontuacaoTerceiroColocado / pontuacaoTotal;
 
 // Cálculo do valor do prêmio para cada colocado
-double valorPremioPrimeiroColocado = 500000.0 * porcentagemPrimeiroColocado;
-double valorPremioSegundoColocado = 500000.0 * porcentagemSegundoColocado;
-double valorPremioTerceiroColocado = 500000.0 * porcentagemTerceiroColocado;
+double valorPremioPrimeiroColocado = 500000 * porcentagemPrimeiroColocado;
+double valorPremioSegundoColocado = 500000 * porcentagemSegundoColocado;
+double valorPremioTerceiroColocado = 500000 * porcentagemTerceiroColocado;
 
 // Exibição do valor do prêmio para cada colocado
 Console.WriteLine($"{nomePrimeiroColocado}: {valorPremioPrimeiroColocado:F2}.");
