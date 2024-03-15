@@ -7,7 +7,9 @@ double nota2 = Convert.ToDouble(Console.ReadLine());
 double media = (nota1 + nota2) / 2;
 Console.WriteLine("Média {0:F2}: ", media);
 
-if (media >= 6)
+const int MEDIA_APROVADO = 6;
+
+if (media >= MEDIA_APROVADO)
 {
     Console.WriteLine("Aluno aprovado!");
 }
