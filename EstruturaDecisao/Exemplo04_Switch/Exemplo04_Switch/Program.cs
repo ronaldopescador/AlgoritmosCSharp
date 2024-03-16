@@ -16,4 +16,3 @@ switch (diaDaSemana)
         Console.WriteLine("Dia inválido");
         break;
 }
-
